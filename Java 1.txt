@@ -1,0 +1,33 @@
+class Num
+{
+public static void main(String s[])
+{
+int a;
+float b;
+char c;
+double d; 
+a=Integer.parseInt(s[0]);
+b=Float.parseFloat(s[1]);
+c=Charecter.parseCharecter(s[2]);
+d=Double.parseDouble(s[3]);
+System.out.println(" Integer value="+a);
+System.out.println("Float value="+b);
+System.out.println("charecter value="+c);
+System.out.println("double value="+d);
+
+}
+
+}
+
+
+
+
+/*Posted Apr 16, 2020
+Assigned
+Enter any int : 10
+Enter any float: 3.02f
+Enter any char: A
+Enter any double: 30.200
+.
+.
+Enter String : Hello*/
