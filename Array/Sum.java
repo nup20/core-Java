@@ -1,29 +1,25 @@
- public class Sum
-{
-public static void main(String s[])
-{
-int a,b,c,d,num;
-System.out.println("Input an integer between 0 and 1000:");
-num=Integer.parseInt(sc.nextLine());
-if((num>0)&&(num<1000))
-{
+ package day01;
 
+public class Test
+ {
 
-System.out.println("The sum of all digits in " +a+ " is="+a);
+	public static void main(String[] args) {
+		int a,i,sum=0;
+		int ar[]={1,2,3,4,5};
+		
+		for(i=0;i<ar.length;i++)
+		{
+		
+			sum=sum+ar[i];
+		System.out.println("Sum of Array="+sum);
+		}
+		
+
+	}
+
 }
 
 
 
-}
-
-}
 
 
-
-
-
-/*Test Data
-Input an integer between 0 and 1000: 565
-Expected Output :
-The sum of all digits in 565 is 16
-*/
