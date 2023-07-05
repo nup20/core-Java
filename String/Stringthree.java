@@ -1,6 +1,6 @@
 package Stringpro;
 
-public class Stringtwo {
+public class Stringthree{
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
