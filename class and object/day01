@@ -1,1 +1,30 @@
+package day01;
+
+public class Area {
+	int aa,a;
+	
+	Area(int l,int b)
+	{
+		 a=l;
+		 aa=b;
+		
+	}
+
+	public int setDim()
+	{ 
+		int c=a*aa;
+		return c;
+	}
+	public void getArea()
+	
+	{
+	
+	System.out.print("Area of Rectangle="+setDim());
+	}
+	public static void main(String[]s)
+	{Area g=new Area(5,6);
+	g.getArea();
+	}
+}
+
 
