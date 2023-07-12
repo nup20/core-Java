@@ -1,5 +1,6 @@
 package day01;
 
+
 public class Area {
 	int aa,a;
 	
