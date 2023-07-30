@@ -4,6 +4,7 @@ class BankAccount{
 	String name;
 	String Addressofdepositor;
 	String Typeaccount;
+	
 	Double Balanceacc;
 	Double Numbertransactions;
 	
