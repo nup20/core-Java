@@ -2,6 +2,7 @@ package miniproject2;
 
 import java.util.Scanner;
 
+
 class  Student{
 	int roll,A,B,C;
 	void fun()
