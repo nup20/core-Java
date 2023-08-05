@@ -1,5 +1,6 @@
 package Stringpro;
 
+
 public class Stringseven {
 
 	public static void main(String[] args) {
