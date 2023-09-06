@@ -5,6 +5,7 @@ public class Stringseven {
 
 
 	
+	
 	public static void main(String[] args) {
 		String s1="Comparing Example.com";
 		String s2="Comparing example.com";
