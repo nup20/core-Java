@@ -1,1 +1,28 @@
+package generic;
+class Demo<H>{
+	Demo(H a,H b,H c,H d){
+		System.out.println(a+"\n"+b+"\n"+c+"\n"+d);
+		
+	}
+	void fun(H a,H b,H c,H d) {
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+		
+	}
+	void fun(String a,Integer b) {
+		System.out.println(a+"\n"+b);
+		
+	}
+}
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Demo d=new Demo(20,"hello",'a',5.8);
+		d.fun(200,"hello0",'a',5.80);
+		d.fun("Hello",6);
+		}
+}
 
