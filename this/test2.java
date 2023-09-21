@@ -3,6 +3,7 @@ class All{
 	int roll;
 	String name,course;
 	double phno;
+
 	
 	All(int r,String s,double p,String c)
 	{roll=r;
