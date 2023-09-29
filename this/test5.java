@@ -8,6 +8,7 @@ class D{
 		
 		System.out.println(a);
 		
+
 		
 	}
 }
