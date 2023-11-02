@@ -1,1 +1,42 @@
+package pack1;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+//step 0 Install JDBC API JAR (Add Jar File inside your project)
+class Test {
+
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+	//Step 1
+		
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		System.out.println("Step 1");
+		
+	//Step 2
+		
+		Connection c=DriverManager.getConnection("jdbc:mysql://localhost:3306/my_db","root","abc123");
+		System.out.println("Step 2");
+		
+	//Step 3
+		
+		Statement st =c.createStatement();
+		System.out.println("Step 3");
+		
+	//Step 4
+		
+		int a= st.executeUpdate("insert into student (name, address) values('Pooja','nagpur')");  //insert Update delete
+		System.out.println("Step 4");
+		if(a>0)
+			System.out.println("Data Inserted!");
+		else
+			System.out.println("Data Not Inserted!");
+		
+	//Step 5
+		
+		c.close();
+		System.out.println("Step 5");
+	}
+
+}
 
