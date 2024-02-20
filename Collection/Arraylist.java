@@ -12,6 +12,7 @@ public class Arraylist {
 		l.add("neha");
 		l.add("kanak");
 		l.add("nupur");
+		l.add("riya");
 		
 		
 		
